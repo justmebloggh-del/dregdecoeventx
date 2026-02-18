@@ -52,7 +52,7 @@ const HomePage: React.FC = () => {
              <span className="gold-gradient italic">Elegance</span>.
           </h1>
           <p className="text-xl md:text-3xl text-zinc-400 mb-16 font-light max-w-4xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            We architect cultural experiences and corporate excellence across continents. Precise coordination. Bespoke decoration. Elite protocol.
+            We architect decoration experiences and corporate excellence events across continents. Precise coordination. Bespoke decoration. Elite protocol.
           </p>
           <div className="flex flex-col sm:flex-row gap-8 justify-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <Link to="/contact" className="inline-block px-20 py-8 gold-bg text-black font-black uppercase tracking-[0.5em] text-xs hover:scale-105 transition-all shadow-2xl">
@@ -87,15 +87,31 @@ const HomePage: React.FC = () => {
             </div>
           </div>
           
-          <div className="space-y-12">
+          <div className="space-y-8">
             <div>
-              <p className="text-[#D4AF37] font-black tracking-[0.5em] uppercase text-xs mb-6">Our Philosophy</p>
-              <h2 className="text-6xl md:text-8xl font-serif leading-tight">Bridging <span className="italic">Continents</span> with Precision.</h2>
+              <p className="text-[#D4AF37] font-black tracking-[0.5em] uppercase text-xs mb-6">WHAT WE DO</p>
+              <h2 className="text-6xl md:text-5xl font-serif leading-tight">From <span className="gold-gradient italic">Conscept to Celebration</span> Delivered with Precision.</h2>
             </div>
             <p className="text-xl text-zinc-400 leading-relaxed font-light">
-              ODREG DECO & EVENTX SERVICES is more than a planning firm. We are the strategic bridge between the structured logistics of the United Kingdom and the vibrant heart of West African heritage.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pt-8">
+           <div>
+Every event is different and special. Each has it's own distinct audience, tone, personality and
+set of objectives. Odreg Decor & Events Services oversees every step in the event management process to deliver a seamless 
+event to meet the desired expectation of our clients. Our clients are our focus and priority so we 
+ensure their requirements are duly accomplished. We ensure that the end result of our service 
+receives the needed pull to beam up the good image of our client.
+            </div><div>ARE YOU CONSIDERING PUTTING UP AN EVENT? DO YOU NEED AN EXPERT 
+ADVISE? <p>If the response to the above question is “YES” then look no 
+further than ODREG DECOR & EVENTX SERVICES where we assist you to plan and manage all your 
+events with the professional touch that assure you a successful event for all stakeholders(Owners, Invited guests, Members,
+Sponsors and the general public).</p></div>
+
+<p>Why Choose US
+<p>1. We are results oriented</p>
+<p>2. Client focused</p>
+<p>3. Timely </p>
+<p>4. We uphold Integrity</p>
+</p></p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-8">
                <div className="p-8 glass-panel border-l-2 border-l-[#D4AF37]">
                   <h4 className="font-bold uppercase tracking-widest text-sm mb-4">Kingston Upon Hull</h4>
                   <p className="text-xs text-zinc-500 leading-loose">Managing corporate logistics and premium private consultations for our UK and Diaspora clientele.</p>
@@ -122,9 +138,9 @@ const HomePage: React.FC = () => {
             </Link>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {SERVICES.slice(0, 3).map((service, idx) => (
-              <Link key={service.id} to={`/services/${service.id}`} className="group space-y-8">
+              <Link key={service.id} to={`/services/${service.id}`} className="group space-y-4">
                 <div className="aspect-[4/5] overflow-hidden relative">
                    <img src={service.image} alt={service.title} className="w-full h-full object-cover grayscale-[0.2] group-hover:scale-110 group-hover:grayscale-0 transition-all duration-1000" onError={handleImgError}/>
                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>

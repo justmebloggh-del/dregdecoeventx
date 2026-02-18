@@ -28,19 +28,31 @@ const AboutPage: React.FC = () => {
       <section className="py-24 px-4 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div className="space-y-8">
-            <h2 className="text-4xl md:text-6xl font-serif text-black leading-tight">Bridging Continents Through <span className="text-[#D4AF37] italic">Elegance</span>.</h2>
+            <h2 className="text-4xl md:text-6xl font-serif text-black leading-tight">Turning Events Into<span className="text-[#D4AF37] italic">Elegance Experience</span>.</h2>
             <p className="text-xl text-zinc-600 leading-relaxed font-light">
-              ODREG DECO & EVENTX SERVICES was founded on the belief that world-class execution shouldn't be limited by borders. We bring the structured precision of UK logistics to the vibrant heart of West African celebrations.
+Odreg Decor & Eventx Services is a professional and a creative team of event management specialists. 
+We have a combined over a decade of experience producing high-quality events of every type and 
+scale. Our passion is managing the behind-the-scenes and on-the-scenes details to deliver a superior event 
+experience for your audience. We thrive on delighting you - our valued customer - by helping 
+you host events that meet or exceed your goals.
+ <p>Our services spread across both locally and 
+internationally.</p>
+
+<p><b>Our clients are our cherished hallmark; hence providing intriguing, innovative, 
+and remarkable service is our focus.We are in a position to deliver the service aligned with 
+the expectations of our clients, and create a memorable working relationship. For the 
+past years coupled with the best events management practices and human resources capabilities,
+we have assisted numerous individuals, professional associations, organizations, non-governmental with our outstanding services</b></p>
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <img src="https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="rounded-sm shadow-xl mt-12 w-full h-80 object-cover bg-zinc-100" alt="UK Hub" onError={handleImgError} />
-              <p className="text-[10px] font-black uppercase tracking-widest text-zinc-400 text-center">Hull, United Kingdom</p>
+              <p className="text-[10px] font-black uppercase tracking-widest text-zinc-400 text-center">Dream Wedding</p>
             </div>
             <div className="space-y-4">
-              <img src="https://images.unsplash.com/photo-1634074967416-dd24d702c93c?q=80&w=1623&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="rounded-sm shadow-xl w-full h-80 object-cover bg-zinc-100" alt="Ghana Heritage" onError={handleImgError} />
-              <p className="text-[10px] font-black uppercase tracking-widest text-zinc-400 text-center">Accra, Ghana</p>
+              <img src="https://plus.unsplash.com/premium_photo-1723867267202-169dfe3b197a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="rounded-sm shadow-xl w-full h-80 object-cover bg-zinc-100" alt="Ghana Heritage" onError={handleImgError} />
+              <p className="text-[10px] font-black uppercase tracking-widest text-zinc-400 text-center">Cooperate Dinner</p>
             </div>
           </div>
         </div>

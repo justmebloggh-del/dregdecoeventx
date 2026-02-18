@@ -56,7 +56,7 @@ export const PORTFOLIO: PortfolioItem[] = [
   {
     id: "royal-throne-union",
     title: "The Blue & Gold Royal Union",
-    location: "Accra, Ghana",
+    location: "UK",
     description: "A masterclass in throne-room decoration and regal attire.",
     fullStory: "This eventx redefined traditional luxury. We designed a central stage featuring blue-and-gold hand-woven Kente that matched the couple's coronation-style crowns. The setup included gold-leafed thrones and sunburst halo backdrops, creating a truly divine atmosphere.",
     images: [
