@@ -45,7 +45,7 @@ const HomePage: React.FC = () => {
         <div className="relative z-20 text-center px-4 max-w-6xl">
           <div className="mb-10 inline-flex items-center gap-4 py-2 px-6 border border-[#D4AF37]/30 rounded-full bg-black/40 backdrop-blur-xl animate-fade-in">
              <span className="w-2 h-2 bg-[#D4AF37] rounded-full animate-pulse"></span>
-             <span className="text-[#D4AF37] uppercase tracking-[0.4em] text-[10px] font-bold">UK Presence</span>
+             <span className="text-[#D4AF37] uppercase tracking-[0.4em] text-[10px] font-bold">CHOOSE US</span>
           </div>
           <h1 className="text-7xl md:text-[11rem] font-serif mb-10 leading-none animate-fade-in" style={{ animationDelay: '0.2s' }}>
              Bespoke <br/>
@@ -93,19 +93,31 @@ const HomePage: React.FC = () => {
               <h2 className="text-6xl md:text-5xl font-serif leading-tight">From <span className="gold-gradient italic">Conscept to Celebration</span> Delivered with Precision.</h2>
             </div>
             <p className="text-xl text-zinc-400 leading-relaxed font-light">
-           <div>
-Every event is different and special. Each has it's own distinct audience, tone, personality and
-set of objectives. Odreg Decor & Events Services oversees every step in the event management process to deliver a seamless 
-event to meet the desired expectation of our clients. Our clients are our focus and priority so we 
-ensure their requirements are duly accomplished. We ensure that the end result of our service 
-receives the needed pull to beam up the good image of our client.
-            </div><div>ARE YOU CONSIDERING PUTTING UP AN EVENT? DO YOU NEED AN EXPERT 
-ADVISE? <p>If the response to the above question is “YES” then look no 
-further than ODREG DECOR & EVENTX SERVICES where we assist you to plan and manage all your 
-events with the professional touch that assure you a successful event for all stakeholders(Owners, Invited guests, Members,
-Sponsors and the general public).</p></div>
+          <div className="text-justify space-y-6">
 
-<p>Why Choose US
+  <p>
+    Every event is unique and special. Each has its own distinct audience, tone, personality, and objectives.
+    Odreg Decor & Events Services oversees every step in the event management process to deliver
+    a seamless experience that meets our clients’ expectations.
+  </p>
+
+  <p>
+    Our clients are our focus and priority, and we ensure their requirements are fully accomplished.
+    We strive to create results that enhance and elevate the image of every client we serve.
+  </p>
+
+  <h3>ARE YOU PLANNING AN EVENT?</h3>
+
+  <p>
+    Do you need expert advice? If your answer is <strong>YES</strong>, look no further than
+    Odreg Decor & Eventx Services. We assist you in planning and managing your events with
+    a professional touch that guarantees success for all stakeholders — owners, invited guests,
+    members, sponsors, and the general public.
+  </p>
+
+</div>
+
+<p>WHY CHOOSE US;
 <p>1. We are results oriented</p>
 <p>2. Client focused</p>
 <p>3. Timely </p>

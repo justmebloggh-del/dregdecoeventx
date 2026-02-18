@@ -30,19 +30,33 @@ const AboutPage: React.FC = () => {
           <div className="space-y-8">
             <h2 className="text-4xl md:text-6xl font-serif text-black leading-tight">Turning Events Into<span className="text-[#D4AF37] italic">Elegance Experience</span>.</h2>
             <p className="text-xl text-zinc-600 leading-relaxed font-light">
-Odreg Decor & Eventx Services is a professional and a creative team of event management specialists. 
-We have a combined over a decade of experience producing high-quality events of every type and 
-scale. Our passion is managing the behind-the-scenes and on-the-scenes details to deliver a superior event 
-experience for your audience. We thrive on delighting you - our valued customer - by helping 
-you host events that meet or exceed your goals.
- <p>Our services spread across both locally and 
-internationally.</p>
+<div className="text-justify space-y-6">
 
-<p><b>Our clients are our cherished hallmark; hence providing intriguing, innovative, 
-and remarkable service is our focus.We are in a position to deliver the service aligned with 
-the expectations of our clients, and create a memorable working relationship. For the 
-past years coupled with the best events management practices and human resources capabilities,
-we have assisted numerous individuals, professional associations, organizations, non-governmental with our outstanding services</b></p>
+  <p>
+    Odreg Decor & Eventx Services is a professional and creative team of event management specialists.
+    We have a combined experience of over a decade producing high-quality events of every type and scale.
+    Our passion lies in managing both the behind-the-scenes and on-the-scenes details to deliver a superior
+    event experience for your audience. We thrive on delighting you—our valued customer—by helping you host
+    events that meet or exceed your goals.
+  </p>
+
+  <p>
+    Our services extend both locally and internationally.
+  </p>
+<b> </b>
+  <p>
+    Our clients are our cherished hallmark; hence, providing intriguing, innovative, and remarkable service
+    remains our focus. We are well-positioned to deliver services aligned with the expectations of our clients
+    while creating a memorable and lasting working relationship.
+  </p>
+
+  <p>
+    Over the years, combined with best event management practices and strong human resource capabilities,
+    we have assisted numerous individuals, professional associations, organizations, and non-governmental
+    institutions with our outstanding services.
+  </p>
+</div>
+
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
