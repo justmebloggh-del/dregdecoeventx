@@ -45,7 +45,7 @@ const HomePage: React.FC = () => {
         <div className="relative z-20 text-center px-4 max-w-6xl">
           <div className="mb-10 inline-flex items-center gap-4 py-2 px-6 border border-[#D4AF37]/30 rounded-full bg-black/40 backdrop-blur-xl animate-fade-in">
              <span className="w-2 h-2 bg-[#D4AF37] rounded-full animate-pulse"></span>
-             <span className="text-[#D4AF37] uppercase tracking-[0.4em] text-[10px] font-bold">UK & Ghana Dual Presence</span>
+             <span className="text-[#D4AF37] uppercase tracking-[0.4em] text-[10px] font-bold">UK Presence</span>
           </div>
           <h1 className="text-7xl md:text-[11rem] font-serif mb-10 leading-none animate-fade-in" style={{ animationDelay: '0.2s' }}>
              Bespoke <br/>
@@ -97,11 +97,11 @@ const HomePage: React.FC = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pt-8">
                <div className="p-8 glass-panel border-l-2 border-l-[#D4AF37]">
-                  <h4 className="font-bold uppercase tracking-widest text-sm mb-4">Kingston upon Hull</h4>
+                  <h4 className="font-bold uppercase tracking-widest text-sm mb-4">Kingston Upon Hull</h4>
                   <p className="text-xs text-zinc-500 leading-loose">Managing corporate logistics and premium private consultations for our UK and Diaspora clientele.</p>
                </div>
                <div className="p-8 glass-panel border-l-2 border-l-[#D4AF37]">
-                  <h4 className="font-bold uppercase tracking-widest text-sm mb-4">Greater Accra</h4>
+                  <h4 className="font-bold uppercase tracking-widest text-sm mb-4">Your Desired Design</h4>
                   <p className="text-xs text-zinc-500 leading-loose">Specialized in Royal decoration, TORGAG heritage tours, and high-level protocol services.</p>
                </div>
             </div>

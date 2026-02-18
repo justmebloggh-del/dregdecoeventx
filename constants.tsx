@@ -2,12 +2,12 @@
 import { Service, PortfolioItem, ContactDetails } from './types';
 
 export const CONTACT_INFO: ContactDetails = {
-  address: "15 Manvers Street, Kingston upon Hull, HU3 1BB, UK",
-  phones: ["+447442852562", "+4474468855270", "+233202350250"],
+  address: "15 Manvers Street, HU5 2HH,Kingston Upon Hull,  UK",
+  phones: ["+447442852562", "+4474468855270"],
   email: "odregconsult@gmail.com"
 };
 
-export const WHATSAPP_LINK = "https://wa.me/44744852561?text=Hello%20ODREG%2C%20I%20would%20like%20to%20inquire%20about%20your%20luxury%20eventx%20services.";
+export const WHATSAPP_LINK = "https://wa.me/447442852561?text=Hello%20ODREG%2C%20I%20would%20like%20to%20inquire%20about%20your%20luxury%20eventx%20services.";
 
 export const SERVICES: Service[] = [
   {

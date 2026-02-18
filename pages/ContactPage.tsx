@@ -226,7 +226,7 @@ const ContactPage: React.FC = () => {
             {/* Address Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
                <div className="space-y-6">
-                  <h3 className="text-[10px] font-black uppercase tracking-[0.4em] text-zinc-400">Hull, United Kingdom</h3>
+                  <h3 className="text-[10px] font-black uppercase tracking-[0.4em] text-zinc-400">United Kingdom</h3>
                   <div className="space-y-2">
                     <p className="text-2xl font-serif text-black">{CONTACT_INFO.address}</p>
                     <p className="text-zinc-500 font-light text-sm">Email: odregconsult@gmail.com</p>
@@ -234,10 +234,10 @@ const ContactPage: React.FC = () => {
                   </div>
                </div>
                <div className="space-y-6">
-                  <h3 className="text-[10px] font-black uppercase tracking-[0.4em] text-zinc-400">Accra, Ghana</h3>
+                  <h3 className="text-[10px] font-black uppercase tracking-[0.4em] text-zinc-400"></h3>
                   <div className="space-y-2">
-                    <p className="text-2xl font-serif text-black">Accra Operations HQ</p>
-                    <p className="text-zinc-500 font-light text-sm">+233 2023 50250</p>
+                    <p className="text-2xl font-serif text-black"></p>
+                    <p className="text-zinc-500 font-light text-sm"></p>
                   </div>
                </div>
             </div>

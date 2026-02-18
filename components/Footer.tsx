@@ -23,16 +23,16 @@ const Footer: React.FC = () => {
           <div className="space-y-8">
             <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-[#D4AF37]">United Kingdom</h4>
             <div className="text-zinc-500 text-xs space-y-4 font-light leading-loose">
-              <p>15 Manvers Street,<br/>Kingston upon Hull, HU3 1BB</p>
-              <p>+44 7442 852562</p><p>Email: odregconsult@gmail.com</p>
+              <p>15 Manvers Street,<br/>HU5 2HH,Kingston Upon Hull</p>
+              <p></p><p>Email: odregconsult@gmail.com</p>
             </div>
           </div>
 
           <div className="space-y-8">
-            <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-[#D4AF37]">Ghana</h4>
+            <h4 className="text-[10px] font-black uppercase tracking-[0.4em] text-[#D4AF37]">~CALL US~</h4>
             <div className="text-zinc-500 text-xs space-y-4 font-light leading-loose">
-              <p>Greater Accra & Ashanti Region<br/>Operations HQ</p>
-              <p>+233 2023 50250</p>
+              <p>ODREG DECO<br/></p>
+              <p>+44 7442 852562</p>
             </div>
           </div>
 
