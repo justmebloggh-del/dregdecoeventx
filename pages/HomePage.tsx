@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { SERVICES, PORTFOLIO, WHATSAPP_LINK } from '../constants';
+import { SERVICES, PORTFOLIO, WHATSAPP_LINK } from '../constants.tsx';
 
 const HomePage: React.FC = () => {
   const handleImgError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
@@ -40,7 +40,9 @@ const HomePage: React.FC = () => {
             onError={handleImgError}
           />
         </div>
-        <div className="relative z-10 text-center px-4 max-w-6xl">
+        
+        {/* LIFTED CONTENT TO Z-20 */}
+        <div className="relative z-20 text-center px-4 max-w-6xl">
           <div className="mb-10 inline-flex items-center gap-4 py-2 px-6 border border-[#D4AF37]/30 rounded-full bg-black/40 backdrop-blur-xl animate-fade-in">
              <span className="w-2 h-2 bg-[#D4AF37] rounded-full animate-pulse"></span>
              <span className="text-[#D4AF37] uppercase tracking-[0.4em] text-[10px] font-bold">UK & Ghana Dual Presence</span>
@@ -53,17 +55,19 @@ const HomePage: React.FC = () => {
             We architect cultural experiences and corporate excellence across continents. Precise coordination. Bespoke decoration. Elite protocol.
           </p>
           <div className="flex flex-col sm:flex-row gap-8 justify-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            <Link to="/contact" className="px-12 py-6 gold-bg text-black font-black hover:brightness-110 transition-all transform hover:-translate-y-1 shadow-[0_20px_50px_rgba(212,175,55,0.3)] uppercase text-xs tracking-[0.3em]">
+            <Link to="/contact" className="inline-block px-20 py-8 gold-bg text-black font-black uppercase tracking-[0.5em] text-xs hover:scale-105 transition-all shadow-2xl">
               Request Consultation
-            </Link>
+           </Link>
+
+
             <Link to="/portfolio" className="px-12 py-6 border border-white/20 hover:bg-white hover:text-black transition-all backdrop-blur-sm uppercase text-xs tracking-[0.3em] font-bold">
               View Our Legacy
             </Link>
           </div>
         </div>
         
-        {/* Decorative elements */}
-        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-[#050505] to-transparent z-10"></div>
+        {/* Decorative elements - kept at z-10 */}
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-[#050505] to-transparent z-10 pointer-events-none"></div>
       </section>
 
       {/* Operational Mastery Section */}
@@ -124,7 +128,6 @@ const HomePage: React.FC = () => {
                 <div className="aspect-[4/5] overflow-hidden relative">
                    <img src={service.image} alt={service.title} className="w-full h-full object-cover grayscale-[0.2] group-hover:scale-110 group-hover:grayscale-0 transition-all duration-1000" onError={handleImgError}/>
                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
-                   <div className="absolute top-10 right-10 text-5xl opacity-80 group-hover:rotate-12 transition-transform">{service.icon}</div>
                 </div>
                 <div>
                    <h3 className="text-3xl font-serif mb-4 group-hover:text-[#D4AF37] transition-colors">{service.title}</h3>

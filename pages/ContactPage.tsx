@@ -10,7 +10,7 @@ import { InquiryMessage } from '../types';
  * 1. Create a free account at https://getform.io
  * 2. Create a new form and copy your unique Endpoint URL.
  */
-const GETFORM_ENDPOINT = ""; // Paste your Getform URL here for production
+const GETFORM_ENDPOINT = "https://formspree.io/f/xykdglqw"; // Paste your Getform URL here for production
 
 const ContactPage: React.FC = () => {
   const location = useLocation();
