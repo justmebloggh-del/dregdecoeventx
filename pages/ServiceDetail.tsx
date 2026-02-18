@@ -9,7 +9,7 @@ const ServiceDetail: React.FC = () => {
 
   const handleImgError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
     const target = e.target as HTMLImageElement;
-    target.src = "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=1200";
+    target.src = "https://plus.unsplash.com/premium_photo-1674235766088-80d8410f9523?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
   };
 
   if (!service) {
@@ -42,7 +42,6 @@ const ServiceDetail: React.FC = () => {
           onError={handleImgError}
         />
         <div className="relative z-10 text-center text-white px-4 max-w-4xl">
-          <div className="text-6xl mb-8 animate-bounce inline-block">{service.icon}</div>
           <h1 className="text-5xl md:text-8xl font-serif font-bold mb-6">{service.title}</h1>
           <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <span className="text-[#D4AF37] uppercase tracking-[0.4em] font-black text-xs border border-[#D4AF37] px-6 py-2">ODREG Signature Service</span>

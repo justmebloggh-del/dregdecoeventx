@@ -6,7 +6,7 @@ import { SERVICES } from '../constants';
 const ServicesListPage: React.FC = () => {
   const handleImgError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
     const target = e.target as HTMLImageElement;
-    target.src = "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=1200";
+    target.src = "https://images.unsplash.com/photo-1524648953700-5723ad0453a9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
   };
 
   return (
@@ -31,9 +31,6 @@ const ServicesListPage: React.FC = () => {
                   className="w-full h-[600px] object-cover shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000" 
                   onError={handleImgError}
                  />
-                 <div className="absolute top-8 left-8 bg-black text-[#D4AF37] w-20 h-20 flex items-center justify-center text-4xl shadow-2xl border border-[#D4AF37]">
-                    {service.icon}
-                 </div>
               </div>
               <div className="w-full lg:w-1/2 space-y-8">
                 <span className="text-[10px] font-black text-zinc-300 uppercase tracking-[0.5em]">0{idx + 1} / Service Tier</span>
