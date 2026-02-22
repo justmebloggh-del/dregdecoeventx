@@ -61,7 +61,7 @@ const AboutPage: React.FC = () => {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
-              <img src="https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="rounded-sm shadow-xl mt-12 w-full h-80 object-cover bg-zinc-100" alt="UK Hub" onError={handleImgError} />
+              <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/311284300_551588180300804_1603194170422209993_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=3JQDDc6AcwoQ7kNvwEWGf2Y&_nc_oc=Admtrcz2U-c8QjOIAC6yvM0xw0B0hz0Guh7rwJfP6Rsp4Zd5XDCB9xcej5-CSs4nx491dXiVs4PCu_Vk4T5fN_CR&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=4ntQrS91ibryuj897ghs-Q&oh=00_Afsc6D5rTFXNX4qWKjTtoP4YwsFazSLHxU9oilVyTGKaYg&oe=69A0495C" className="rounded-sm shadow-xl mt-12 w-full h-80 object-cover bg-zinc-100" alt="UK Hub" onError={handleImgError} />
               <p className="text-[10px] font-black uppercase tracking-widest text-zinc-400 text-center">Dream Wedding</p>
             </div>
             <div className="space-y-4">
